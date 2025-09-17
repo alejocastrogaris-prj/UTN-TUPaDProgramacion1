@@ -3,7 +3,8 @@
 #Primero creamos una lista con el nombre "numeros" y le asignamos valores numericos
 numeros = [8,15,3,22,7]
 
-#Ahora usando .remove seguido del "max" y la lista seleciconada, borramos el numeros mas grande o con mas "valor de la lista"
+#Ahora usando .remove seguido del "max" y la lista seleciconada, borramos el numero
+# mas grande o con mas "valor" de esa lista
 numeros.remove(max(numeros))
 
 #Ahora imprimimos la lista para ver los cambios

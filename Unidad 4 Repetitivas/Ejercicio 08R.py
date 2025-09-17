@@ -7,8 +7,8 @@ numeros_impares = 0
 numeros_negativos = 0
 numeros_positivos = 0
 
-for i in range(101):
-    numeros_ingresados = int(input("Ingrese 3 numeros (Negativos,positivos, par o impar)"))
+for i in range(100):
+    numeros_ingresados = int(input("Ingrese 100 numeros (Negativos,positivos, par o impar)"))
     if numeros_ingresados < 0:
         numeros_negativos = numeros_negativos + 1
     elif numeros_ingresados > 0:
