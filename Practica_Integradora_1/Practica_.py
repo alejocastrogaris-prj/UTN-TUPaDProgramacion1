@@ -32,12 +32,14 @@ clavesTecnico = ("admin","CCCDDD","2020")
 #Creo golosinasPedidas
 
 golosinasPedidas = [
-    ["Codigo golosina"
-                            ],
-    ["Denominacion golosina"
-                            ],
-    ["Cantidad total pedida", 
-                            ]
+    
+    
+    
+    
+    
+    
+    
+    
 ]
 
 
@@ -78,10 +80,18 @@ while True:
                     golosinas[codigo_golosina][2] = golosinas[codigo_golosina][2] + 1
                 
                 print(f"Disponibles: {golosinas[codigo_golosina][2]}") #Mostramos el restante de ESA golosina
-               #-------------------------------------------------------------------------------------------------------------------------------------- 
-                golosinasPedidas[0].append(codigo_golosina)
-                golosinasPedidas[1].append(golosinas[codigo_golosina][1])
-                #-----------------------------------------------------------------------------------------------------------------------------------             
+               #----------------------------------------------------------------------------------------------------------------------------------------- 
+                # ------------------//////  Parte de codigo donde se agregan las golosinas a la lista golosinaPedidas ////////--------------------------
+                
+                golosinasPedidas.append([codigo_golosina])
+                golosinasPedidas.append([golosinas[codigo_golosina][1]])
+                golosinasPedidas.append([1])
+                
+                
+                
+                
+               
+               #--------------------------------------------------------------------------------------------------------------------------------------             
                 
                 if golosinas[codigo_golosina][2] == 0:
                     print(f"No hay mas stock de {golosinas[codigo_golosina][1]}")
@@ -126,10 +136,12 @@ while True:
                    continue
        else: print("No tiene permiso para ejecutar la función de recarga")
        continue
-    
     elif opcionElegida == "D" or opcionElegida == "d":
-        print(f"Cantidad de golosinas perdidas: {golosinasPedidas}")
-        print(golosinasPedidas[2])
+        print("---GOLOSINAS PEDIDAS---")
+        print("CODIGO--DENOMINACION--TOTAL PEDIDAS")
+        print(golosinasPedidas)
+        break
+        
     
          
        
