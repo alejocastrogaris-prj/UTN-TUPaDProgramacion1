@@ -35,11 +35,6 @@ golosinasPedidas = [
     
     
     
-    
-    
-    
-    
-    
 ]
 
 
@@ -83,11 +78,7 @@ while True:
                #----------------------------------------------------------------------------------------------------------------------------------------- 
                 # ------------------//////  Parte de codigo donde se agregan las golosinas a la lista golosinaPedidas ////////--------------------------
                 
-                golosinasPedidas.append([codigo_golosina])
-                golosinasPedidas.append([golosinas[codigo_golosina][1]])
-                golosinasPedidas.append([1])
-                
-                
+                #Tengo que corregir esta parte
                 
                 
                
