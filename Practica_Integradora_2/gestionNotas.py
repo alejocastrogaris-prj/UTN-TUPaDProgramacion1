@@ -103,6 +103,8 @@ elif notasFinales[3][1] > mejorPromedio:
     mejorPromedio = notasFinales[3][1]
 else:
     pass
+
+print(f"El mejor promedio es: {mejorPromedio}")
           
 
     
