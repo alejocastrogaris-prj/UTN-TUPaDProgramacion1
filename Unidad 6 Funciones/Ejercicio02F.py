@@ -4,7 +4,7 @@
 # principal solicitando el nombre al usuario
 
 def saludar_usuario(nombre):
-    print(f"Hola {nombre} \n")
+    print(f"Hola {nombre}")
     
     
 nombre = input("Ingrese su nombre ")

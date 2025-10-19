@@ -10,6 +10,6 @@ def segundos_a_horas(segundos):
     
 segundos = float(input("Ingrese una cantidad de segundos para pasarlos a su equivalente en horas: "))
 
-print(f"Los segundos ingresados: '{segundos}'  \nSu equivalente en horas: {segundos_a_horas(segundos)}\n")
+print(f"Los segundos ingresados: {segundos}  \nSu equivalente en horas: {segundos_a_horas(segundos)}\n")
 
 

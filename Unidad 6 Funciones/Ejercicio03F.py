@@ -3,7 +3,7 @@
 # [nombre] [apellido], tengo [edad] años y vivo en [residencia]”. Pedir los datos al usuario y llamar a esta función con los valores ingresados.
 
 def informacion_personal(nombre,apellido,edad,residencia):
-    print(f"Soy {nombre} {apellido}, tengo {edad} y vivo en {residencia} ")
+    print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia} ")
     
     
 nombre = input("Como te llamas? ")
