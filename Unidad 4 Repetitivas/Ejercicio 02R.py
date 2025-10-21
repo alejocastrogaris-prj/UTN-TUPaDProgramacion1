@@ -10,11 +10,3 @@ while decision_usuario.upper() == "S":
     decision_usuario = input("Desea continuar? S/N ")
     
 print("Adios")
-    
-    
-     
-    
-    
-     
-    
-    

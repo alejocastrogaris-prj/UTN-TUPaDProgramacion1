@@ -11,9 +11,8 @@ while True:
         opcion = int(input("##-----------## \nIngrese aquí: "))
         
     except ValueError:
-       print("❌ Valor inválido. Debe ingresar un número ||(1 o 2)||.")
-       continue  
-   
+        print("❌ Valor inválido. Debe ingresar un número ||(1 o 2)||.")
+        continue  
     if opcion == 3:
         print("Saliendo del programa!!")
         break
@@ -45,12 +44,12 @@ while True:
         while  True:
             contacto_a_buscar = input("Ingrese el contacto a buscar ")
             if contacto_a_buscar in contactos.keys():
-             numero_Asociado = contactos.get(contacto_a_buscar)
-             print(f"\nNombre: {contacto_a_buscar} --- Numero: {numero_Asociado} ")
-             break
+                numero_Asociado = contactos.get(contacto_a_buscar)
+                print(f"\nNombre: {contacto_a_buscar} --- Numero: {numero_Asociado} ")
+                break
             else:
-             print("El contacto no existe")
-             continue     
+                print("El contacto no existe")
+                continue     
         
         
 
