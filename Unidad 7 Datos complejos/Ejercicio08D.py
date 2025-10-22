@@ -8,6 +8,9 @@ def agregar_producto(productos_stocks):
     while True:
         try:
             producto_nuevo = str(input("Ingrese el nuevo producto: ")).lower()
+            if producto_nuevo.isdigit():
+                print("No puede ingresar numeros como nombre del producto")
+                continue
             if producto_nuevo in productos_stocks:
                 print(f"El producto --{producto_nuevo}-- ya existe.")
             elif producto_nuevo not in productos_stocks:
