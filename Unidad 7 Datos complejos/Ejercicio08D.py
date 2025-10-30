@@ -4,7 +4,7 @@
 # • Agregar unidades al stock si el producto ya existe.
 # • Agregar un nuevo producto si no existe.
 
-def agregar_producto(productos_stocks):
+def agregar_producto(productos_stocks): #Esto agrega productos y verifica que el nombre no sea un digito y se ingrese str
     while True:
         try:
             producto_nuevo = str(input("Ingrese el nuevo producto: ")).lower()
